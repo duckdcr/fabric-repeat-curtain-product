@@ -1,0 +1,6 @@
+interface:
+  display_name: "独立窗帘成片"
+  short_description: "独立扫描分类并批量生成素色或完整花位窗帘，自动统计，无需人工审核"
+  default_prompt: "Use $fabric-repeat-curtain-product to classify the fabric photos, skip large patterns in plain-only jobs, and render standalone curtain products with a generation report without human approval."
+policy:
+  allow_implicit_invocation: true
